@@ -2585,7 +2585,7 @@ void updateGraphicsScale(){
 }
 void applyTextboxChanges(char _doRecalcMaxLines){
 	if (gameTextDisplayMode==TEXTMODE_ADV){
-		textboxYOffset=screenHeight-advboxHeight;
+		textboxYOffset=screenHeight-advboxHeight-30;
 	}else{
 		textboxYOffset=0;
 	}
